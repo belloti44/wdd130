@@ -11,7 +11,7 @@
     --content-border:1px solid black;
 }
 nav{
-    background-color:var(--background-color);
+    background-color:darkblue;
     padding:var(--heading-padding);
 }
 nav a{
