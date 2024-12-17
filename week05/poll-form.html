@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+    <head>
+        <meta charset = "utf-8">
+        <meta name= "viewport" content="width=device-width,initial-scale=1.0">
+        <title>WDD 130| Html form - user poll</title>
+        <meta name="description" content="Getting to know how forms work in html">
+        <meta name="author" content="Isaiah Wambani Mutambo">
+    </head>
+    <body>
+        <header>
+            <h1>WDD 130|Isaiah Wambani Mutambo|HTML form - user poll</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Contact Informations</legend>
+                    <label for="fullname">Full name:</label><br>
+                    <input type="text" id="fullname" name="fullname"><br>
+                    <label for="useremail">Email:</label><br>
+                    <input type="email" id="useremail" name="useremail">
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <label for="browser">What is your favorite Internet browser?</label><br>
+                    <select id="browser" name="browser">
+                        <option value="chrome">CHROME</option>
+                        <option value="edge">EDGE</option>
+                        <option value="firefox">FIREFOX</option>
+                        <option value="safari">SAFARI</option>
+                    </select> <br>
+                    <label for="pet"> Do you have a household pet?</label><br>
+                    <input type="checkbox" id="pet" name="pet">  <br>           
+                    <label for="feedback">List the places you have lived:</label><br>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Nakuru,Nirobi,Kakamega,Mombasa,Kitale"></textarea>                   
+                </fieldset>
+                <button type="submit">Submit poll</button>
+            </form>
+        </main>
+        <footer>
+            <p>©2025|html form - user poll Activity|Isaiah Wambani Mutambo</p>
+        </footer>
+    </body>
+</html>
