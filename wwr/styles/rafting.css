@@ -3,12 +3,7 @@
     font-weight: 100;
     font-style: normal;
   }
-  
-  .roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+
 :root{
     --primary-color: #3A5743;
     --secondary-color: #3B7080;
@@ -16,13 +11,11 @@
     --accent2-color: #DBFB9B;
     --font-color:#001219;
     --link-hover-color:#94d2bd;
-
 }
 footer img{
   width:32px;
   height:32px;
   display:inline-block;
-
 }
 
 /* Style the body to apply the background color and font styles */
@@ -87,7 +80,6 @@ body {
 header {
   display: grid;
   grid-template-columns: auto 1fr auto;
-  align-items: right;
   padding: 10px 20px;
   background-color: #004d66;
   color: white;
@@ -174,10 +166,12 @@ figure img{
 .info{
   border:solid black;
   margin:10px;
+  padding:10px;
 }
 h3{
   display:flex;
   Align-items:center;
   justify-content:center;
 }
+
 
