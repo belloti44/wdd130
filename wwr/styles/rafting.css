@@ -173,5 +173,14 @@ h3{
   Align-items:center;
   justify-content:center;
 }
+section figure{
+  display:grid;
+}
+table{
+
+  border:solid black;
+  margin:10px;
+  
+}
 
 

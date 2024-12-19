@@ -68,3 +68,25 @@ aside h2{
     top:47px;
     left:150px;
 }
+.trips{    
+    margin:10px;
+    padding:10px;
+}
+.pen{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap:2px;
+    margin:20px;   
+
+}
+form{
+    margin:20px;
+}
+.purpose{
+    margin:20px;
+    border:solid black;
+    padding:10px;
+}
+.content{
+    margin:20px;
+}
